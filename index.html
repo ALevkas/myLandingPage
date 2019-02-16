@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Levchenko A.</title>
+    <!-- style -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" data-value="home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-value="about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-value="portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-value="contact">Contact</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- header -->
+    <header id="home" class="header-content">
+        <div class="header-overlay">
+        </div>
+
+        <div class="container">
+            <div class="header-description">
+                <h1>
+                    Web developer
+                </h1>
+                <p>
+                    Levchenko Alexandr краткий текст призыва к действию
+                </p>
+                <button class="btn btn-outline-secondary btn-lg" onclick="goAbout()">See more</button>
+
+            </div>
+        </div>
+    </header>
+    <!-- about us -->
+    <div id="about" class="about">
+        <h1 class="text-center">About</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                   slider
+                    <span class="text-justify text-center">Web Developer</span>
+                </div>
+                <div class="col desc">
+
+                    <h3>A.Levchenko</h3>
+                    <p>
+                        todo: skill
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio -->
+    <div id="portfolio" class="portfolio">
+        <h1 class="text-center">Portfolio</h1>
+        <div class="container">
+            todo:slider my project
+        </div>
+    </div>
+    <!-- contact form -->
+    <div class="contact-form" id="contact">
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <h1>Get in Touch</h1>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 right">
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com"
+                                name="email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control form-control-lg">
+
+                                </textarea>
+                        </div>
+                        <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- script -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
