@@ -48,7 +48,9 @@
     width: 35%;
     border-radius: 15%
 }
-
+.about .carousel {
+    position: static;
+}
 .about span {
     display: block;
     color: #888;

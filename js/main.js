@@ -7,6 +7,10 @@ $(document).ready(function () {
         }, 1000)
     });
 
+    $('.my-carousel').carousel().swipeCarousel({
+        // low, medium or high
+        sensitivity: 'low'
+    });
 })
 
 function goAbout() {
@@ -15,3 +19,4 @@ function goAbout() {
         scrollTop: destination
     }, 1100);
 }
+
