@@ -11,6 +11,12 @@ $(document).ready(function () {
         // low, medium or high
         sensitivity: 'low'
     });
+
+    jQuery('.skillbar').each(function () {
+        jQuery(this).find('.skillbar-bar').animate({
+            width: jQuery(this).attr('data-percent')
+        }, 4000);
+    });
 })
 
 function goAbout() {
@@ -19,4 +25,3 @@ function goAbout() {
         scrollTop: destination
     }, 1100);
 }
-
